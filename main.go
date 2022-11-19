@@ -1,7 +1,7 @@
 package main
 
 import (
-	"crypto/tls"
+	//"crypto/tls"
 	"flag"
 	"fmt"
 	"log"
@@ -52,7 +52,7 @@ func main() {
 		Addr:      config.Redis.Host + ":" + config.Redis.Port,
 		Password:  config.Redis.Password,
 		DB:        0,                                     // redis databases are deprecated so we will just use the default
-		TLSConfig: &tls.Config{InsecureSkipVerify: true}, // needed for the standard DO redis
+		//TLSConfig: &tls.Config{InsecureSkipVerify: true}, // needed for the standard DO redis
 	})
 
 	// Check redis server connection
