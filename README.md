@@ -80,7 +80,7 @@ The "push" mode is how you get commands ONTO the queue, and the "pop" mode is ho
 To install the binary on your machine:
 
 ```
-go install github.com/hakluke/hakscale@latest
+go install github.com/diddy81/hakscale@latest
 ```
 
 The basic requirements are:
